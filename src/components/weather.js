@@ -23,7 +23,7 @@ const Weather = ({weatherData}) => {
                     <div className="col-md-4"><p className="humidity">Humidity : {weatherData.main.humidity}%</p></div>
                 </div>
                 <div className='second_row'>
-                     <div className="col-md-4"><p > Clouds:<br/>{weatherData.clouds.all}</p></div>
+                     <div className="col-md-4"><p > Clouds:<br/>{weatherData.clouds.all}%</p></div>
                     <div className="col-md-4"><p>sunrise: {formatDate(weatherData.sys.sunrise)}</p></div>
                     <div className="col-md-4"><p>sunset: {formatDate(weatherData.sys.sunset)} </p></div>
                 </div>

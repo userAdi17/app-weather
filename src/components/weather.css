@@ -2,7 +2,7 @@
     margin: 0 auto;
     background: linear-gradient(to bottom,#6441A5,#2a0845);
     width: 100vh;
-    height: 700px;
+    height: 600px;
     color: #fff;
     position: relative;
 }
@@ -10,9 +10,8 @@
     background: #bbbbbb90;
     border: none;
     text-align:center;
-    font-size: 17px;
-    width: 220px;
-    padding: 18px;
+    width: 130px;
+    padding: 10px;
     border-radius: 5px;
     color: #ffffff90;
     position: absolute;
@@ -20,7 +19,7 @@
     transform: translateY(-70%);
     left: 70px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 17px;
 }
 .input:focus{
     outline: none;
@@ -29,8 +28,8 @@
     background: #bbbbbb90;
     border: none;
     text-align:center;
-    width: 220px;
-    padding: 18px;
+    width:176px;
+    padding: 10px;
     border-radius: 5px;
     color: #ffffff;
     position: absolute;
@@ -40,11 +39,11 @@
     cursor: pointer ;
     transition: .2s ease-in;
     margin: 0 auto;
-    font-size: 20px;
+    font-size:17px;
 }
 .input::placeholder{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 17px;
 }
 .btn:focus{
     outline: none;
@@ -93,7 +92,7 @@
     height: 90px;
     text-align: center;
     margin: 5px;
-    font-size: 20px;
+    font-size: 17px;
 }
 .descr{
     background: #bbbbbb90;
@@ -119,7 +118,7 @@
     margin: 10px auto;
 }
 .error{
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     display: flex;
     align-items: center;

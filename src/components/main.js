@@ -3,6 +3,7 @@ import Weather from './weather';
 import CityForm from "./cityForm";
 import Error from './error'
 import './weather.css'
+import './media.css'
 function Main() {
     const [weatherData, setWeatherData] = useState({});
     const [city, setCity] = useState('');
